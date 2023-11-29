@@ -1,0 +1,41 @@
+html{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: linear-gradient(rgb(84, 132, 172), rgb(247, 247, 247));
+}
+    
+
+
+.objetivo{
+    background-color: rgb(206, 212, 212);
+    height: 600px;
+    width: 100%;
+    float: left;
+    border: 2px solid rgb(255, 255, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.rapido {
+    background-color: rgb(206, 212, 212);
+        border: 2px solid rgb(255, 255, 255);
+    height: 1200px;
+    width: 100%;
+    float: left;
+
+}
+.pesado {
+    background-color: rgb(206, 212, 212);
+        border: 2px solid rgb(255, 255, 255);
+    height: 1000px;
+    width: 100%;
+    float: left;
+
+}
+
+h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
