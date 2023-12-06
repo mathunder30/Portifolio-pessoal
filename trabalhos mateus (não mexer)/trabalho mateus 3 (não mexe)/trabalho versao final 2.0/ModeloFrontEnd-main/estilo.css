@@ -6,12 +6,12 @@
     text-decoration: none;
 }
 html{
-    background-image: url(image/backGroundFixo.jpg);
+    background-image: url(image/azulacordomar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
-    background-position:unset ;
+    background-position: unset;
 }
 
 .body{
@@ -60,6 +60,7 @@ html{
     color: #fff;
     font-size: 25px;
     font-weight: 500;
+    color: #ffffff;
 }
 
 .navbar.sticky .logo a span{
@@ -71,7 +72,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -116,11 +117,13 @@ html{
 .home .home-content .text-1-subtitulo{
     font-size: 18px;
     text-align: center;
+    color: #000000;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 500;
     margin-left: -3px;
+    color: #000000;
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -147,8 +150,11 @@ html{
 }
 
 .home .home-content .logoCentral{
-    width: 20%;
+    width: 50%;
+    position: relative; top: -100px;
+    right: 70%;
 }
+
 
 
 /*  Menu  Mobile  */
@@ -157,6 +163,7 @@ html{
     font-size: 26px;
     cursor: pointer;
     display: none;
+    color: #000000;
 }
 
 /*Botão para subir até o topo da tela*/
@@ -198,6 +205,8 @@ section .title{
     padding-bottom: 20px;
     position: relative;
     color: #fff;
+    color: #000000;
+    
 }
 section .title::before{
     content: "";
@@ -208,6 +217,7 @@ section .title::before{
     height: 3px;
     background: #1C1C1C;
     transform: translateX(-50%);
+    color: #000000;
 }
 section .title::after{
     position: absolute;
@@ -218,6 +228,7 @@ section .title::after{
     color: #ffffff;
     padding: 5px;
     transform: translateX(-50%);
+    color: #000000;
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Roboto', sans-serif;
@@ -241,17 +252,19 @@ section .title::after{
 }
 .services, .teams{
     /*background: #1C1C1C;*/
-    color: #fff;
+    color: #000000;
 }
 .services .title::before,
 .teams .title::before{
     background: #1C1C1C;
+    color: #000000;
 }
 .services .title::after,
 .teams .title::after{
     /*background-color: #1C1C1C;*/
     content: "Um pouco do seu trabalho...";
     background: none;
+    color: #000000;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -272,10 +285,10 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
     font-size: 70px;
-    color: #fff;
+    color: #000000;
 }
 .services .serv-content .card:hover ion-icon{
-    color: #fff;
+    color: #000000;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -344,6 +357,24 @@ section .title::after{
 .owl-dot:hover{
     background: #f4bf44!important;
 }
+#sobr_min{
+    padding: 50px;
+    font-size: 30px;
+    text-shadow:
+            1px 1px 2px black,
+            0 0 1em rgb(0, 0, 0),
+            0 0 0.2em rgb(0, 0, 0);
+        color: rgb(255, 239, 239);
+        font:
+            1.5em Georgia,
+            serif;
+
+    
+}
+#sobr_min p {
+    text-align: center;
+}
+
 
 
 /*  FALE CONOSCO  */
@@ -365,14 +396,14 @@ section .title::after{
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .text-textoFaleConosco{
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
-    color: #fff;
+    color: #000000;
 }
 
 .contact .contact-content .left .icons{
@@ -388,14 +419,14 @@ section .title::after{
 }
 .contact .contact-content .row .info .head{
     font-weight: 500;
-    color: #fff;
+    color: #000000;
 }
 .contact .contact-content .row .info .sub-title{
-    color: #fff;
+    color: #000000;
 }
 .contact .contact-content .row ion-icon{
     font-size: 25px;
-    color: #fff;
+    color: #000000;
 }
 .contact .rigth form .fields{
     display: flex;
@@ -410,7 +441,7 @@ section .title::after{
 .contact .rigth form .textarea textarea{
     width: 100%;
     height: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -426,10 +457,12 @@ section .title::after{
 .contact .rigth form .textarea{
     width: 100%;
     height: 80px;
+    color: #000000;
 }
 .contact .rigth form .textarea textarea{
     padding-top: 10px;
     resize: none;
+    color: #000000;
 }
 .contact .rigth form .button{
     width: 170px;
